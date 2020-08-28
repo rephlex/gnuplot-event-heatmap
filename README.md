@@ -13,7 +13,7 @@ This can be used to find out how events happen or walk-in-visitors distribute ov
 
 Throw `src/index.php` into your webserver root and call it via your browser. Alternatively, use the command line: `php index.php`
 
-# Database scheme
+# Database schema
 
 ```
 root@raspberrypi:/var/www/html# echo "select * from log limit 10;" | mysql log
@@ -30,5 +30,5 @@ id	timestamp
 11	2020-07-30 14:13:29
 ```
 
-# Example Output
+# Example output
 refer to subdirectory example-output/
